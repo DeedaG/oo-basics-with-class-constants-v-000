@@ -7,7 +7,7 @@ BRANDS = []
   def initialize(brands)
     @brand = brands
       if BRANDS.uniq!
-        BRANDS << brands 
+        BRANDS << brands
     end
   end
 
