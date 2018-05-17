@@ -5,7 +5,7 @@ class Shoe
 BRANDS = []
 
   def initialize(brands)
-    @brand = brands
+    @brand = brands.uniq
     BRANDS << brands
   end
 
