@@ -9,6 +9,7 @@ BRANDS = []
   end
 
   def brand
+    @brand = BRANDS.uniq
 
   def cobble
     self.condition = "new"
