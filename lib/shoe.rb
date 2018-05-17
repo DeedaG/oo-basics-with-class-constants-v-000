@@ -6,7 +6,7 @@ BRANDS = []
 
 
   def initialize(brand)
-    @brand.uniq = brand
+    @brand = brand
     BRANDS << brand
   end
 
