@@ -8,6 +8,7 @@ BRANDS = []
     @brand = brands
     BRANDS << brands while BRANDS.uniq
   end
+  end
 
 
   def cobble
